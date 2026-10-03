@@ -1,0 +1,50 @@
+{
+  "format": "MiniEngine2D.scene",
+  "version": 1,
+  "canvas": {
+    "width": 960,
+    "height": 540
+  },
+  "objects": [
+    {
+      "id": "player-01",
+      "type": "player",
+      "name": "Player",
+      "x": 444,
+      "y": 336,
+      "width": 38,
+      "height": 52,
+      "color": "#d8583b"
+    },
+    {
+      "id": "platform-01",
+      "type": "platform",
+      "name": "Platform",
+      "x": 396,
+      "y": 396,
+      "width": 172,
+      "height": 16,
+      "color": "#398474"
+    },
+    {
+      "id": "block-01",
+      "type": "block",
+      "name": "Crate",
+      "x": 612,
+      "y": 360,
+      "width": 68,
+      "height": 68,
+      "color": "#d29b43"
+    },
+    {
+      "id": "floor-01",
+      "type": "platform",
+      "name": "Ground",
+      "x": 0,
+      "y": 506,
+      "width": 960,
+      "height": 34,
+      "color": "#596d61"
+    }
+  ]
+}
